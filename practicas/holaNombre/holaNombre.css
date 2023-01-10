@@ -1,6 +1,6 @@
-.effects-btn {
-    background-color: aquamarine;
-}
-body {
-    background-color: aquamarine;
+.tenor-gif-embed {
+    /* display: none; */
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    margin: 10px 0 20px 0;
 }
