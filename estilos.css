@@ -1,4 +1,13 @@
 .img-nombre{
     display: block;
     margin: auto;
+    height: 500px;
+}
+
+.arousel-inner .active {
+    height: 700px;
+}
+
+.arousel-inner .active img{
+    height: auto;
 }
