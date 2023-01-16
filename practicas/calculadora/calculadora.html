@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./calculadora.css">
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-sm bg-body-secondary">
+      <div class="container-fluid">
+        <!-- logo -->
+        <a class="navbar-brand m-0 p-0" href="#">
+          <img src="../../myPerfil.png" width="60px" alt="" srcset="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/eduardSeCh" target="_blank">Github</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Proyectos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" target="_blank" href="../holaNombre/holaNombre.html">Hola <i>nombre</i></a></li>
+                <li><a class="dropdown-item" href="./index.html">Calculadora</a></li>
+                <li><a class="dropdown-item" href="#">Fechas</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <li><a class="dropdown-item" href="#">Formulario</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Mas informacion</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+  <!-- main -->
+  <main class="container mx-auto">
+    <!-- result -->
+  <div class="row justify-content-center">
+    <p  class="result" name="" id="result"></p>
+  </div>
+  <!-- operations -->
+  <div class="row justify-content-around btns-oprations">
+    <div class="col-2 text-center">
+      <button class="btn" type="button" id="sum">
+        <i class="fa fa-plus"></i>
+      </button>
+    </div>
+    <div class="col-2 text-center">
+      <button class="btn" type="button" id="resta">
+        <i class="fa fa-minus"></i>
+      </button>
+    </div>
+    <div class="col-2 text-center">
+      <button class="btn" type="button" id="div" onclick="div()">
+        <i class="fa fa-divide"></i>
+      </button>
+    </div>
+    <div class="col-2 text-center">
+      <button class="btn" type="button" id="mult">
+        <i class="fa fa-xmark"></i>
+      </button>
+    </div>
+  </div>
+  <!-- inputs numbers-->
+  <div class="row justify-content-around inputs mx-5">
+    <input type="number" name="" id="num1" class="numbers">
+    <input type="number" name="" id="num2" class="numbers">
+  </div>
+</main>
+
+<script src="https://kit.fontawesome.com/445ff911e9.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./calculadora.js"></script>
+</body>
+</html>

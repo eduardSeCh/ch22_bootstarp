@@ -1,0 +1,76 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(241, 236, 229);
+}
+
+main {
+    background-color: rgb(176, 223, 231);
+    margin: 0 auto;  
+    height: 35rem;  
+}
+/* Resultado */
+div .result {
+    display: block;
+    /* min-height: 5rem; */
+    height: 100%;
+    text-align: center;
+    font-size:2.5rem;
+    padding: 1rem;
+    background-color: #f5c954;
+    margin: 0;
+    transition: .3s ease all;
+}
+
+.result:active {
+    height: 5rem;
+}
+
+/* operadores */
+.btns-oprations {
+    margin-top: 2rem;
+    height: 8rem;
+}
+
+.btns-oprations .col-2{
+    padding: 0;
+}
+
+.btn {
+    height: 100%;
+    padding: 0 0;
+    border-radius: 100%;
+}
+
+.btn i {
+    font-size: 7.7em;
+    transition: .3s ease-in-out all;
+}
+
+.btn i:hover {
+    color: aliceblue;
+    transform: scale(1.2);
+}
+
+
+.inputs {
+    margin-top: 4rem;
+}
+
+.inputs input{
+    margin: 1rem auto;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+@media (max-width: 600px) {
+    .btns-oprations {
+        height: 4rem;        
+    }
+    .btn i {
+        font-size: 4em;
+    }
+}
